@@ -5,12 +5,12 @@ stages{
     steps{
     sh '/home/aiman/maven/bin/mvn clean install'
     }
-    }
-   stage('Test'){
-   steps{
+  }
+  stage('Test'){
+    steps{
     sh '/home/aiman/maven/bin/mvn test'
     }
-    }
-    }
-    }
-    }
+  }
+}
+}
+    
